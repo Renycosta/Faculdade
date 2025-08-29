@@ -1,0 +1,22 @@
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5; 
+    text-align: justify;
+    margin: auto;
+    width: 80%; 
+}
+.form1 label{
+    padding: 5px 0;
+    display: block;
+}
+
+.form1 textarea{
+    padding: 5px 10px;
+    display: block;
+}
+/* input[type="reset"] {
+}
+::placeholder {
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 1250px;
+}
+div {
+    height: 220px;
+    width: 500px;
+}
+.static {
+    background-color: red;
+}
+.relative {
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.absolute {
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+.fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 150px;
+    right: 150px;
+}
+.filho {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}

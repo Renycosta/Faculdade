@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor0: white;
+    --cor1: #977FA3;
+    --cor2: #6F4C7A;
+
+    --fonte: Arial;
+}
+
+body{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.cabecalho {
+    width: 90rem;
+    height: 6.25rem;
+    background-color: var(--cor0);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.cabecalho__titulo {
+    /*Layout*/
+    display: flex;
+    width: 10.625rem;
+    height: 6.25rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    
+    /*Tipografia*/
+    color: var(--cor2);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.navegacao {
+    width: 32.625rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+}
+
+.navegacao__ul {
+    display: inline-flex;
+    height: 3.625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.navegacao__ul li{
+    display: flex;
+    height: 3.625rem;
+    padding: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sds-size-space-200);
+
+    border-radius: var(--sds-size-radius-200);
+    border: var(--sds-size-stroke-border) solid #FFF;
+    background: #FFF;
+}
+
+.navegacao__ul__li{
+    color: #977FA3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.cabecalho__botao {
+    /*Layout*/
+    display: flex;
+    width: 10.625rem;
+    height: 2.625rem;
+    padding: 0.75px 0.50px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sds-size-space-200);
+    flex-shrink: 0;
+
+    /*Style*/
+    border-radius: 10px;
+    background: #6F4C7A;
+    text-decoration: none;
+    font-family: var(--fonte);
+
+        /*Layout*/
+    color: white;
+
+    font-family: var(--fonte);
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    font-weight: var(--sds-typography-body-font-weight-regular);
+    line-height: 100%; /* 1rem */
+}
+
+.cabecalho__botao ::content{
+    /*Layout*/
+    color: var(--cor0);
+    color: var(--sds-color-text-brand-on-brand);
+
+    /* corpo */
+    font-family: var(--fonte);
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    font-weight: var(--sds-typography-body-font-weight-regular);
+    line-height: 100%; /* 1rem */
+}
+.corpo__banner{
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    width: 90rem;
+    height: 37.5rem;
+}
+
+.corpo__titulo {
+    width: 36.0625rem;
+    height: 3.5625rem;
+    position: relative;
+    top: 3.44rem;
+    left: 9.5rem;
+    bottom: 30.5rem;
+    right: 44.44rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%; /* 3rem */
+
+}
+.corpo__texto {
+    position: relative;
+    top: 12.62rem;
+    left: 10rem;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.letra{
+        color: #C50DFF;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 2.25rem */
+}
+.corpo__botao {
+    position: relative;
+    top: 18.37rem;
+    left:10.38rem;
+    width: 15rem;
+    height: 4.375rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #6F4C7A;
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 1.75rem */
+}
+.who {
+    display: inline-flex;
+    padding: 1.625rem 10.0625rem 7.6875rem 10.1875rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+    border-radius: 0.125rem;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: #FFF;
+}
+.who__titulo {
+    text-align: center;
+    color: #6F4C7A;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 3rem */
+    padding: 1.63rem 10.1rem 1.69rem 5.2rem;
+}
+.who__div {
+    width: 69.75rem;
+    height: 27.5625rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.who__div__img {
+    width: 33.9375rem;
+    height: 27.5625rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+}
+.who__div__texto {
+    display: flex;
+    width: 34.6875rem;
+    height: 27.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 1rem */
+}
+.who__field {
+    width: 70rem;
+    height: 32.85113rem;
+    margin: 1.6rem 10.1rem 1.4rem 6.88rem;
+    color: transparent;
+    background-color: transparent;
+    border: transparent;
+}
+.input{
+    width: 18.75rem;
+    height: 4.375rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 3px solid #6F4C7A;
+    background: #FFF;
+    color: rgba(51, 51, 51, 0.58);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 1.5rem */
+}
+.who__field__div1 {
+    padding: 0px 0rem 5rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.who__field__div2 {
+    padding: 0px 0em 5rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.who__field__textarea {
+    width: 64rem;
+    height: 7.5rem;
+    margin: 0px 0rem 5rem 0px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 3px solid #6F4C7A;
+    background: #FFF;
+    color: rgba(51, 51, 51, 0.58);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 1.5rem */
+    position: relative;
+    left: 3rem;
+    line-height: 3rem;
+}
+.who__field__input {
+    width: 8.39025rem;
+    height: 5rem;
+    margin: 0px 0em 5rem 0px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sds-size-space-200);
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #6F4C7A;
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 100%; /* 1.5rem */
+    position: relative;
+    left: 31rem;
+}
+

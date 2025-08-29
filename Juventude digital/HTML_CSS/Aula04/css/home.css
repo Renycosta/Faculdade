@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #17bce4;
+    text-align: center;
+    padding: 20px;
+}
+header ul li{
+    display: inline-block;
+    margin: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 22.3px;
+}
+
+header ul li a:hover{
+    color: gold;
+}

@@ -1,0 +1,9 @@
+Frankenstein;Livro;Terror;50;https://m.media-amazon.com/images/I/61wqm194jbL.jpg
+Watchmen;Hq;Super-heroi;150;https://m.media-amazon.com/images/I/81IOAiyRD+L._UF1000,1000_QL80_.jpg
+Dracula;Livro;Terror;100;https://m.media-amazon.com/images/I/61gfnGu9cTL.jpg
+Hamlet;Livro;Drama;20;https://cirandacultural.fbitsstatic.net/img/p/hamlet-71025/257542.jpg?w=520&h=520&v=no-change&qs=ignore
+O-grande-Gatsby;Livro;Romance;60;https://m.media-amazon.com/images/I/81Ph4QRq1gL._UF1000,1000_QL80_.jpg
+Divina-comedia;Livro;Poesia;100;https://cirandacultural.fbitsstatic.net/img/p/a-divina-comedia-74425/260953-2.jpg?w=520&h=520&v=no-change&qs=ignore
+O-rei-de-amarelo;Hq;Terror;55;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzdOpYJpUghbIyyyEDlEs5M6gMNyLg2RoCFw&s
+Moby Dick;Livro;Aventura;150;https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9786584952003/moby-dick-edicao-comentada.jpg
+Sitio do Picapau;Livro;Aventura;62;https://m.media-amazon.com/images/I/71EatkadfoL._UF1000,1000_QL80_.jpg

@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.cabecalho__titulo {
+  color: #6f4c7a;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+}
+.menu {
+}
+.menu__lista {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+.menu__lista a {
+  color: #977fa3;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.cabecalho__botao {
+  border: none;
+  display: flex;
+  width: 10.625rem;
+  height: 2.625rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #6f4c7a;
+}
+.cabecalho__botao a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  line-height: 100%; /* 1rem */
+  font-size: 1rem;
+}
+.principal {
+  height: 47.5rem;
+  background-image: url(../img/fundo.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5.67rem;
+  padding-left: 10rem;
+}
+.principal__titulo {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 100%; /* 3rem */
+}
+.principal__texto {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 200%; /* 3rem */
+  text-align: justify;
+  width: 37.4375rem;
+}
+.destaque {
+  color: #c50dff;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.principal__botao {
+  display: flex;
+  width: 15rem;
+  height: 4.375rem;
+  padding: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.principal__botao a {
+  color: #6f4c7a;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.75rem */
+  text-decoration: none;
+}
+.quemsomos,
+.contato {
+  margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7rem;
+}
+.quemsomos__titulo,
+.contato__titulo {
+  color: #6f4c7a;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 3rem */
+}
+.quemsomos__conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.quemsomos__texto {
+  width: 36.6875rem;
+  text-align: justify;
+  display: flex;
+  width: 34.6875rem;
+  height: 27.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.62rem;
+  gap: 1rem;
+}
+.quemsomos__texto p{
+    font-size: 1rem;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+input {
+  border-radius: 1rem;
+  border: 3px solid #6f4c7a;
+  background: #fff;
+  width: 22.75rem;
+  height: 4.375rem;
+  padding: 0 1.62rem;
+}
+textarea {
+  width: 70rem;
+  height: 7.5rem;
+  border-radius: 1rem;
+  border: 3px solid #6f4c7a;
+  background: #fff;
+  padding: 1rem 1.62rem;
+}
+fieldset {
+  border: none;
+  display: flex;
+  gap: 1rem;
+}
+::placeholder {
+  color: rgba(51, 51, 51, 0.58);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.5rem */
+}
+input[type="submit"] {
+  border: none;
+  display: flex;
+  width: 10.39025rem;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #6f4c7a;
+  color: #F5F5F5;
+  font-size: 1.5rem;
+}

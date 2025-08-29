@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cima{
+    background-color: bisque;
+    color: darkmagenta;
+}
+
+.frutas{
+    background-color: blue;
+}
+
+.rodape{
+    background-color: gray;
+    border: 2px solid salmon;
+    padding: 10px;
+}
+
+.rodape ol{
+    list-style: none;
+}
+
+.rodape ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape ol li a:hover{
+    color: gold;
+    font-weight: bold;
+}

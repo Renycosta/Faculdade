@@ -1,0 +1,27 @@
+#root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vermelho{
+  color: #f00;
+}
+
+img{
+  height: 300px;
+}
+
+button{
+  padding: 12px;
+  border-radius: 6px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  border: 0px;
+}
+
+button:hover{
+  background-color: rgb(84, 24, 141);
+}

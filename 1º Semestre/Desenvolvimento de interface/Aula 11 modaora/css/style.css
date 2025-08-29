@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho {
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 1.8rem 1rem 7.5rem;
+}
+.cabecalho__titulo {
+    color: white;
+}
+.menu {
+}
+.menu__lista {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.menu__lista a{
+    text-decoration: none;
+    color: #97a1a8;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner {
+    height: 100vh;
+    background-image: url(../imagens/topo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sobre {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.sobre__titulo {
+}
+.sobre__texto {
+    width: 70%;
+    text-align: center;
+}
+.modelos {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.modelos__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+}
+.card__titulo {
+}
+.card__texto {
+}
+.detalhes {
+}
+.detalhes__titulo {
+}
+.detalhes__texto {
+}
+.rodape {
+}
+.rodape__texto {
+}

@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: #FFFBF2;;
+}
+.cabecalho__titulo {
+    color: #000;
+    font-family: Mulish;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.5625rem; /* 167.647% */
+}
+.menu {
+}
+.menu__lista {
+    display: flex;
+    gap: 3.5625rem;
+    list-style: none;
+}
+.menu__lista a {
+    color: #000;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.5625rem; /* 356.25% */
+    text-decoration: none;
+}
+.menu__lista__botao {
+    width: 9rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    background-color: #104B4F;
+}
+.menu__lista__botao a{
+    color: #FFF;
+text-align: center;
+width: 5.1875rem;
+flex-shrink: 0;
+
+/* BUTTON/D/CENTER/WHITE/MEDIUM */
+font-family: Mulish;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.1875rem; /* 135.714% */
+letter-spacing: 0.08438rem;
+}
+.secao1 {
+    margin: 8rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+}
+.secao1__div {
+}
+.secao1__div__titulo {
+    color: #000;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 117.647% */
+    width: 24.625rem;
+    padding-bottom: 1.31rem;
+}
+.secao1__div__texto {
+    color: #000;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+    width: 26.125rem;
+    padding-bottom: 3rem;
+}
+.secao1__div__botao{
+    width: 9rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    background-color: #104B4F;
+    position: relative;
+    left: 8rem;
+}
+.secao1__div__botao a{
+    color: #FFF;
+    text-align: center;
+
+/* BUTTON/D/CENTER/WHITE/MEDIUM */
+    font-family: Mulish;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.1875rem; /* 135.714% */
+    letter-spacing: 0.08438rem;
+    text-decoration: none;
+}
+.secao2 {
+    margin: 8rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: #A7BCB8;
+    padding-bottom: 7rem;
+    padding-top: 3rem;
+    gap: 3rem;
+}
+.secao2__div1 {
+}
+.secao2__div1__titulo {
+    width: 25.8125rem;
+    color: #000;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem; /* 117.647% */
+    position: relative;
+    left: 3rem;
+    padding-bottom: 1rem;
+}
+.secao2__div1__texto {
+    width: 33.25rem;
+    color: #000;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+}
+.secao2__principal {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.secao2__principal__card {
+    width: 22.5625rem;
+    height: 36.9375rem;
+    background: #FFFBF2;
+    padding: 2rem;
+}
+.secao2__principal__card__titulo {
+    width: 15.1875rem;
+    color: #000;
+
+/* H6/D/Left/Black/Semi */
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.625rem; /* 130% */
+    letter-spacing: 0.00938rem;
+    padding-top: 1.69rem;
+    padding-bottom: 0.5rem;
+}
+.secao2__principal__card__texto {
+    width: 18.6875rem;
+    color: #000;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+    padding-bottom: 3.12rem;
+}
+.secao2__principal__card__botao {
+    width: 18.6875rem;
+    height: 4.0625rem;
+    background: #0A474B;
+}
+.secao2__principal__card__botao a{
+    width: 5.4375rem;
+    color: #FFF;
+    text-align: center;
+
+    /* BUTTON/D/CENTER/WHITE/MEDIUM */
+    font-family: Mulish;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.1875rem; /* 135.714% */
+    letter-spacing: 0.08438rem;
+    text-decoration: none;
+}
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+.final__div {
+}
+.final__div__titulo {
+    color: #000;
+    font-family: Mulish;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.5625rem; /* 118.75% */
+    text-align: center;
+    padding-bottom: 2.3rem;
+}
+.final__div__lista {
+    display: flex;
+    gap: 3.5625rem;
+    list-style: none;
+    padding-bottom: 2.57rem;
+}
+.final__div__lista a{
+    color: #000;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.5625rem; /* 356.25% */
+    text-decoration: none;
+}
+.final__div__img {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+}

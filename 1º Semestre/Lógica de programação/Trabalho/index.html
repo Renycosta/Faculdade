@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria-Black-cat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-color: #0E0E0E;
+        }
+        .livraria{
+            font-family: "Roboto", sans-serif;  
+            text-align: center;
+            font-weight: 900;
+            color: white;
+            font-size: 45px;
+            padding-top: 10px;
+            padding-bottom: 35px;
+        }
+        .div{
+            display: flex;
+            padding-bottom: 40px;
+        }
+        .img{
+            max-height: 500px;
+            max-width: 500px;
+            padding: 0px 70px;
+        }
+        .nome{
+            font-family: "Roboto", sans-serif;  
+            font-weight: 700;
+            color: white;
+            font-size: 33px;
+            padding-bottom: 5px;
+        }
+        .lorem{
+            font-family: "Roboto", sans-serif;  
+            color: #828282;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        .Cat-Gen{
+            font-family: "Roboto", sans-serif;  
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .estrela{
+            max-height: 30px;
+            padding: 20px 0px;
+        }
+        .valor{
+            font-family: "Roboto", sans-serif;  
+            font-weight: 700;
+            color: white;
+            font-size: 44px;
+        }
+        .juros{
+            font-family: "Roboto", sans-serif;  
+            color: white;
+            font-size: 20px;
+            padding-bottom: 30px;
+        }
+        .amarelo{
+            color: #F8C146;
+        }
+        .botao{
+            background-color: red;
+            border-radius: 5px;
+            border: 0px;
+            height: 60px;
+            width: 450px;
+            justify-content: center;
+        }
+        .botao:hover{
+            background-color: darkred;
+            cursor: pointer;
+        }
+        .botao a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        .infos{
+            font-family: "Roboto", sans-serif;  
+            color: #FFC105;
+            font-size: 16px;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="livraria">Livraria - Black cat <br>Lista de produtos</h1>
+    <div class="div">
+        <img src="https://m.media-amazon.com/images/I/61wqm194jbL.jpg" alt="" class="img">
+        <div class="texto">
+            <h2 class="nome">Frankenstein</h2>
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae ut est esse nulla, sed maiores, natus ipsa dignissimos vel at commodi tempore quibusdam veritatis ullam! Voluptatem neque magni ratione.</p>
+            <p class="Cat-Gen" style="">Livro : Terror</p>
+            <img src="Estrelas.png" alt="" class="estrela">
+            <p class="valor">R$ 50,00</p>
+            <p class="juros">ou <span class="amarelo">4x</span> de <span class="amarelo">R$ 12,50</span> sem juros no PIX</p>
+            <button class="botao"><a href="#">comprar</a></button>
+            <p class="infos">+ Infos</p>
+        </div>
+    </div>
+</body>
+</html>

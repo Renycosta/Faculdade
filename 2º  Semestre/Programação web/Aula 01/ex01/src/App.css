@@ -1,0 +1,12 @@
+#root {
+  
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}

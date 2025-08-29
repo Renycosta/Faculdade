@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #c0c0c0;
+}
+.cabecalho {
+    background-image: url(../img/bg-3.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+.menu {
+}
+.menu__lista {
+    text-align: right;
+    padding: 2rem;
+}
+.menu__lista li{
+    display: inline-block;
+    padding: 0.8rem;
+    border: 1px solid #fff;
+}
+.menu__lista a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+.menu__lista a:hover{
+    color: black;
+    
+}
+.menu__lista li:hover{
+    background-color: #c0c0c0;
+}
+.cabecalho__conteudo {
+    text-align: center;
+    margin-top: 5rem;
+}
+.cabecalho__titulo {
+    padding-bottom: 2rem;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 3px #000;/*coloca sombra no texto*/
+}
+.cabecalho__texto {
+    background-color: #9c9b9b;
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    letter-spacing: 0.1rem;
+}
+.principal {
+    background-color: #fff;
+    margin: 2rem;
+    padding: 3rem;
+}
+.principal__titulo {
+    background-color: #c0c0c0;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #000;
+}
+.principal__texto {
+    margin-bottom: 1.5rem;
+    text-indent: 2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.principal__botao {
+    text-align: right;
+}
+.principal__botao a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 0.5rem;
+}
+.rodape {
+    padding: 2rem;
+}
+.rodape__texto {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    text-shadow: 3px 3px 2px #000;
+}

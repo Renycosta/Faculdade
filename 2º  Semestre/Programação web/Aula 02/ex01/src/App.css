@@ -1,0 +1,18 @@
+#root {
+ 
+}
+
+span{
+  color: red;
+  font-style: italic;
+}
+
+.img-1{
+  width: 500px;
+  cursor: default;
+}
+
+img{
+  width: 180px;
+  cursor: pointer;
+}

@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 
 function App() {
   const {register, handleSubmit} = useForm()
-  const [total, setTotal] = useState("")
+  const [emprestimo, setEmprestimo] = useState("")
   const [situacao, setSituacao] = useState("")
 
   function calcularTotal(data){

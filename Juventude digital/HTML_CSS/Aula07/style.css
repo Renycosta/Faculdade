@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caixas{
+    height: 40vh;
+    width: 100vw;
+    background-color: chartreuse;
+    position: relative;
+}
+
+.caixa1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.caixa2{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

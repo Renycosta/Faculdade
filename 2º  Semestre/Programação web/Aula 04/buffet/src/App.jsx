@@ -1,20 +1,43 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import { useForm } from 'react-hook-form'
 
 function App() {
-  const { register, handleSubmit } = useForm()
+  const { register, handleSubmit, reset, setFocus } = useForm()
   const [ resposta1, setResposta1 ] = useState("")
   const [ resposta2, setResposta2 ] = useState("")
+
+  useEffect(() => {
+    setFocus("nome")
+  }, [])
 
   function calculaPeso(data){
     const nome = data.nome
     const peso = Number(data.peso)
+    const cartao = data.cartao
+    const pag  = data.pag
 
-    const valor = (peso / 1000) * 90
+    let valor = (peso / 1000) * 90
+
+    // if (cartao)
+    if (cartao == true) {
+      valor = valor * 0.90
+    }
 
     setResposta1(`Estimado cliente: ${nome} - Peso; ${peso}`)
     setResposta2(`Valor a Pagar R$: ${valor.toLocaleString("pt-br", {minimumFractionDigits: 2})}`)
+
+  }
+
+  function limparCampos() {
+    setResposta1("")
+    setResposta2("")
+    setFocus("nome")
+    reset({
+      nome: "",
+      peso: "",
+      cartao: false
+    })
   }
 
   return (
@@ -23,7 +46,8 @@ function App() {
       <h1>Restaurante e Buffet Avenida</h1>
       <h2>Cálculo do Valor das Refeições</h2>
       <hr />
-      <form onSubmit={handleSubmit(calculaPeso)}>
+      <form onSubmit={handleSubmit(calculaPeso)}
+          onReset={limparCampos}>
         <p>
           <label htmlFor="nome">Nome do cliente: </label>
           <input type="text" required className='campos' {...register("nome")}/>
@@ -33,7 +57,17 @@ function App() {
           <input type="number" required className='campos' {...register("peso")}/>
         </p>
         <p>
-          <input type="submit" value="Calcular" className='btn submit'/>
+          <input type="checkbox" id="cartao" {...register("cartao")}/>
+          <label htmlFor="cartao">Possui Cartão Clube Avenida</label>
+        </p>
+        <p>
+          <label htmlFor="pag">Forma de Pagamento:</label>
+          <input type="radio" id="pag" {...register("pag")} value="dinheiro" required/>Dinheiro
+          <input type="radio" {...register("pag")} value="cartao" required/>Cartão
+          <input type="radio" {...register("pag")} value="pix" required/>Pix
+        </p>
+        <p>
+          <input type="submit" value="Calcular" className='btn submit'/>  
           <input type="reset" value="Limpar" className='btn reset'/>
         </p>
       </form>

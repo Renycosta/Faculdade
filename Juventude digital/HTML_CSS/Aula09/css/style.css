@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #ff6f61;
+    padding: 16px 0px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.pesquisa{
+    position: relative;
+}
+.pesquisa input{
+    width: 60vw;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.200);
+}
+.pesquisa i{
+    position: absolute;
+    font-size: 20px;
+    right: 4px;
+    top: 8px;
+}
+.icones i{
+    font-size: 2em;
+    color: #f1f1f1f1;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.icones i:hover{
+    color: #ff5733;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+nav ul li a{
+    color: #f1f1f1f1;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+}
+nav ul li a:hover{
+    background-color: #ff5733;
+    border-radius: 5px;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: 16px;
+    background-color: #ffff;
+    padding: 36px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+main section{
+    margin-bottom: 36px;
+}
+main h2{
+    color: #ff6f61
+}
+.fotos{
+    display: flex;
+    justify-content: space-between;
+}
+.foto{
+    width: 22%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.depoimento{
+    background-color: #ffeb3b;
+    padding: 16px;
+    border-radius: 5px;
+}
+.cliente{
+    color: blue;
+    text-transform: uppercase;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+.divisão{
+    width: 31%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.divisão img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

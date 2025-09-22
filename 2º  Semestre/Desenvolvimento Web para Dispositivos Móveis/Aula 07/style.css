@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template: 10vh 60vh 20 70vh / repeat(3, 1fr) 
+}
+.cabecalho {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+}
+.menu__lista {
+    display: flex;
+}
+.banner {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-image: url(img/banner.jpg);
+}
+.banner__titulo {
+}
+.titulo {
+}
+.texto {
+}
+.receitas__container {
+}
+.card {
+}
+.card__titulo {
+}
+.card__texto {
+}
+.card__botao {
+}

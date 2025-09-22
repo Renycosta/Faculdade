@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email">
+            </div>
+
+            <div class="campo">
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" minlength="3" maxlength="30" required>
+                </div>
+
+                <div>
+                    <label for="confirmar_senha">Confirme a sua senha:</label>
+                    <input type="password" required  minlength="3" maxlength="30">
+                </div>
+            </div>
+
+            
+            <div class="campo">
+                <label for="nascimeto">Data de nascimento:</label>
+                <input type="date">
+            </div>
+
+            <div class="campo">
+                <label for="estado">Estado:</label>
+                <select name="estado">
+                    <option>RS</option>
+                    <option>RJ</option>
+                    <option>SC</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="interesses">Interesses:</label>
+                <label><input type="checkbox">Programação</label>
+                <label><input type="checkbox">Esportes</label>
+                <label><input type="checkbox">Jogos</label>
+            </div>
+
+            <div class="campo">
+                <label for="musica">Estilo de música:</label>
+                <label><input type="radio" name="musica">Death Metal</label>
+                <label><input type="radio" name="musica">Metal Core</label>
+                <label><input type="radio" name="musica">Axé</label>
+            </div>
+
+            <div class="campo">
+                <label for="sobre">Sobre:</label>
+                <textarea name="" id="" rows="3" maxlength="200"></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="foto">Coloque sua foto:</label>
+                <input type="file">
+            </div>
+
+            <div class="campo">
+                <label for="linkedin">Linkedin:</label>
+                <input type="url">
+            </div>
+
+            <div class="campo">
+                <label for="satisfacao">Satisfação (0 a 10)</label>
+                <input type="range" min="0" max="10">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

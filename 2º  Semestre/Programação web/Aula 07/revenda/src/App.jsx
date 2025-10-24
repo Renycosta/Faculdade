@@ -23,12 +23,15 @@ function App() {
     } else{
       preco = 102000
     }
+
     if(camera){
       preco = preco + 1200
     }
+
     if(tela){
       preco = preco + 900
     }
+    
     return preco
   }
 

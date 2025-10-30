@@ -1,0 +1,55 @@
+/*Versão desktop*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+.logo {
+}
+.menu {
+}
+.menu__lista {
+    display: flex;
+    gap: 2rem;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 4rem 0;
+}
+.titulo {
+}
+.texto {
+   text-align: center; 
+}
+.receitas {
+    background-color: gray;
+    padding: 3rem;
+    width: 100%;
+}
+.receitas__container {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    justify-items: center;
+    gap: 2rem;
+}
+.receitas__card {
+}
+.card__conteudo {
+}
+.card__titulo {
+}
+.card__texto {
+}
+.card__botao {
+}

@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 8px;
+}
+
+header > img{
+    width: 120px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+header h2{
+    font-style: italic;
+}

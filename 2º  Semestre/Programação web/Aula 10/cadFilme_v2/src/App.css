@@ -1,0 +1,24 @@
+#root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-filmes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 12px;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  border: 2px solid rgb(58, 55, 55);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.cards > img {
+  width: 200px;
+  height: 300px;
+  margin-right: 10px;
+}

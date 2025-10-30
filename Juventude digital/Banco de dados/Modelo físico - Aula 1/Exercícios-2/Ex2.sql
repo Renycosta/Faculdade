@@ -1,0 +1,53 @@
+DROP DATABASE IF EXISTS Ex2
+
+CREATE DATABASE Ex2
+
+USE Ex2
+
+CREATE TABLE Cliente(
+    Id INT NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Sobrenome VARCHAR(45) NOT NULL,
+    Telefone VARCHAR(11) NOT NULL,
+    Endereço VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id)
+)
+
+CREATE TABLE Alugar(
+    Id INT NOT NULL,
+    data_alug DATETIME NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Cliente_Id) REFERENCES Cliente(Id)
+)
+
+CREATE TABLE Fita(
+    Id INT NOT NULL,
+    Info VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Alugar_Id) REFERENCES Cliente(Id)
+    FOREIGN KEY (Filme_Id) REFERENCES Filme(Id)
+)
+
+CREATE TABLE Filme(
+    Id INT NOT NULL,
+    Título VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Fita_Id) REFERENCES Fita(Id)
+)
+
+CREATE TABLE Categoria(
+    Id INT NOT NULL,
+    Comédia BOOLEAN,
+    Drama BOOLEAN,
+    Aventura BOOLEAN,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Filme_Id) REFERENCES Filme(Id)
+)
+
+CREATE TABLE Ator(
+    Id INT NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Data_nasc DATETIME NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Filme_Id) REFERENCES Filme(Id)
+)

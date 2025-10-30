@@ -1,0 +1,50 @@
+DROP DATABASE IF EXISTS Ex3
+
+CREATE DATABASE Ex3
+
+USE Ex3
+
+CREATE TABLE Cliente(
+    CPF INT NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Telefone VARCHAR(45) NOT NULL,
+    PRIMARY KEY (CPF)
+)
+
+CREATE TABLE Venda(
+    Id INT NOT NULL,
+    Info VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Cliente_CPF) REFERENCES Cliente(CPF)
+)
+
+CREATE TABLE Nota_Fiscal(
+    Id INT NOT NULL,
+    Info VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Venda_Id) REFERENCES Venda(Id)
+)
+
+CREATE TABLE Item(
+    Id INT NOT NULL,
+    Quantidade_comprada_produto VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Nota_Fiscal_Id) REFERENCES Nota_Fiscal(Id)
+)
+
+CREATE TABLE Produto(
+    Código INT NOT NULL,
+    Preço VARCHAR(45) NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Quantidade_estoque VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Código),
+    FOREIGN KEY (Item_Id) REFERENCES Item(Id)
+)
+
+CREATE TABLE Fornecedor(
+    CNPJ INT NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Telefone VARCHAR(45) NOT NULL,
+    PRIMARY KEY (CNPJ),
+    FOREIGN KEY (Produto_Código) REFERENCES Produto(Código)
+)

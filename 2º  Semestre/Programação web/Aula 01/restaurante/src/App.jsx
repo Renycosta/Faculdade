@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   const [mesas, setMesas] = useState(10)
+  const [imagem, setImagem] = useState()
 
   function entrada(){
     //alert("Cliente Entrou")
@@ -33,8 +34,8 @@ function App() {
       <h2>Mesas Disponíveis: {mesas} - Mesas Ocupadas: {10-mesas}</h2>
       <button onClick={entrada}>Entrada de Cliente</button>
       <button onClick={saida}>Saída de Cliente</button>
+      <br />
     </>
-
   )
 }
 

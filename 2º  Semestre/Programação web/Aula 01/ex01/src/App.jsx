@@ -18,7 +18,7 @@ function App() {
       <h2>Qual tipo de imóvel você procura</h2>
       <hr />
       <img src="casa.jpg" alt="casa" onClick={casa}/>
-      <img src="apartamento.jpg" alt="apartamento" onClick={apartamento}/>
+      <img src="apartamento.jpg" alt="apartamento"/*Correto*/onClick={banana} /*Errado*/click={banana}/>
       <h2>{residencia}</h2>
     </>
   )

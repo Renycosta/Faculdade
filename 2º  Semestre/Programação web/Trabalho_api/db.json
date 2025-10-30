@@ -1,0 +1,58 @@
+{
+  "jogos": [
+    {
+      "id": "1",
+      "nome": "The Binding of Isaac",
+      "genero": "Roguelike",
+      "ano": "2014",
+      "sinopse": "The Binding of Isaac é um jogo eletrônico independente do gênero roguelike criado e desenvolvido por Edmund McMillen e Florian Himsl, e lançado para Microsoft Windows, OS X e Linux. O título e o enredo do jogo foram inspirados pela história bíblica do sacrifício de Isaque.",
+      "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/570660/capsule_616x353.jpg?t=1573195823",
+      "valor": "27.99"
+    },
+    {
+      "id": "2",
+      "nome": "Sifu",
+      "genero": "Action",
+      "ano": "2023",
+      "sinopse": "Sifu é um jogo de luta realista na terceira pessoa com mecânicas de combate de Kung Fu e ação cinematográfica de artes marciais, inspirado por diversos filmes da cultura pop.",
+      "imagem": "https://cdn1.epicgames.com/offer/b7b42e2078524ab386a8b2a9856ef557/EGS_SIFUStandardEdition_Sloclap_G1A_03_1920x1080-1df3ab45b895adfee06b011673df20aa_1920x1080-1df3ab45b895adfee06b011673df20aa",
+      "valor": "75.99"
+    },
+    {
+      "id": "3",
+      "nome": "Katana zero",
+      "genero": "Action",
+      "ano": "2019",
+      "sinopse": "Katana ZERO é um estiloso jogo de plataforma e ação neo-noir em uma velocidade eletrizante e combates com morte instantânea. Ataque, corra e manipule o tempo para desvendar seu passado em meio a acrobacias espetacularmente brutais.",
+      "imagem": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460950/capsule_616x353.jpg?t=1759429315",
+      "valor": "46.99"
+    },
+    {
+      "id": "4",
+      "nome": "Dredge",
+      "genero": "Exploration",
+      "ano": "2023",
+      "sinopse": "DREDGE é uma aventura de pescaria para um jogador com um toque sinistro. Venda seu pescado, melhore seu barco e escave as profundezas em busca de segredos.",
+      "imagem": "https://static.wixstatic.com/media/e609d3_dbc3f1ee8e294d579331eaa261025e4c~mv2.png/v1/fit/w_2500,h_1330,al_c/e609d3_dbc3f1ee8e294d579331eaa261025e4c~mv2.png",
+      "valor": "89.99"
+    },
+    {
+      "id": "5",
+      "nome": "The Messenger",
+      "genero": "Platformer",
+      "ano": "2018",
+      "sinopse": "Enquanto seu vilarejo é sitiado por um exército demoníaco, um jovem ninja parte em uma aventura por um mundo amaldiçoado para entregar um pergaminho.",
+      "imagem": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000012840/df0eb163676a4e1c3059dc3a9cee00e77563250a61f834c726346007b5a3a9fd",
+      "valor": "59.99"
+    },
+    {
+      "id": "cc14",
+      "nome": "Cult of the Lamb",
+      "genero": "Base Building",
+      "ano": "2022",
+      "sinopse": "Crie seu próprio culto em uma terra de falsos profetas, aventurando-se por regiões misteriosas e diversas para criar uma comunidade fiel de Seguidores da floresta e para propagar sua Palavra e se tornar o único culto verdadeiro.",
+      "imagem": "https://www.devolverdigital.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdevolver-digital%2Fimage%2Fupload%2Fv1717806013%2Fmothership-payload%2F1717806013811_maxresdefault_1_xw8ldr.jpg&w=3840&q=75",
+      "valor": "64.95"
+    }
+  ]
+}

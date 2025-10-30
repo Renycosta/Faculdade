@@ -1,0 +1,70 @@
+/*Versão mobile*/
+@media screen and (max-width: 480px){
+    .cabecalho {
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+    .menu {
+    }
+    .menu__lista {
+    }
+    .principal {
+    }
+    .titulo {
+    }
+    .texto {
+    }
+    .receitas {
+    }
+    .receitas__container {
+        grid-template: auto / 1fr;
+    }
+    .receitas__card {
+    }
+    .card__conteudo {
+    }
+    .card__titulo {
+    }
+    .card__texto {
+    }
+    .card__botao {
+    }
+
+}
+
+/*Versão mobile*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .cabecalho {
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+    .menu {
+    }
+    .menu__lista {
+    }
+    .principal {
+    }
+    .titulo {
+    }
+    .texto {
+    }
+    .receitas {
+    }
+    .receitas__container {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .receitas__card {
+    }
+    .card__conteudo {
+    }
+    .card__titulo {
+    }
+    .card__texto {
+    }
+    .card__botao {
+    }
+}

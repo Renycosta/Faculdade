@@ -10,6 +10,8 @@ function App() {
     }
   })
 
+  const campos = watch(['modelo', 'camera'])
+
   const modelo = watch("modelo")
   const camera = watch("camera")
   const tela = watch("tela")

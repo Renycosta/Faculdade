@@ -1,0 +1,38 @@
+DROP DATABASE IF EXISTS Ex4
+
+CREATE DATABASE Ex4
+
+USE Ex4
+
+CREATE TABLE Cliente(
+    Código INT NOT NULL,
+    CPF VARCHAR(45) NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Telefone VARCHAR(45) NOT NULL,
+    Data_nasc DATETIME NOT NULL,
+    PRIMARY KEY (Código)
+)
+
+CREATE TABLE Plano(
+    Id INT NOT NULL,
+    Duração TIME NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Valor VARCHAR(45) NOT NULL,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Cliente_Código) REFERENCES Cliente(Código)
+)
+
+CREATE TABLE Atividade(
+    Id INT NOT NULL,
+    Duração TIME NOT NULL,
+    Dia DATA,
+    PRIMARY KEY (Id),
+    FOREIGN KEY (Plano_Id) REFERENCES Plano(Id)
+)
+
+CREATE TABLE Hóraio(
+    Id INT NOT NULL,
+    Professor VARCHAR(45),
+    PRIMARY KEY (Id)
+    FOREIGN KEY (Atividade_Id) REFERENCES Atividade(Id)
+)
